@@ -10,8 +10,10 @@ Clone the repository and install dependencies:
 git clone https://github.com/fsegouin/auto-id3-tagger.git
 cd auto-id3-tagger
 pnpm install
+```
 
 ## Usage
 ```bash
 pnpm run start
+```
 
