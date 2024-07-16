@@ -1,0 +1,21 @@
+{
+  "name": "auto-id3-tagger",
+  "version": "1.0.0",
+  "description": "A Node.js script to read all MP3 files in the current directory, extract artist and title information from filenames, and write ID3 tags accordingly.",
+  "type": "module",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fsegouin/auto-id3-tagger.git"
+  },
+  "author": "Florent Segouin",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^10.0.1",
+    "node-id3": "^0.2.6"
+  }
+}
